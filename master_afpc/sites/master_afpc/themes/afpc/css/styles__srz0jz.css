@@ -1,0 +1,115 @@
+
+
+
+.site-branding {
+    background: url("../images/banner-master.jpg");
+}
+
+.site-branding__text {
+	font-size: 1.25rem;
+	text-align: right;
+}
+
+.mobile-nav-button__label {
+	display: none;
+}
+
+.mobile-nav-button:focus {
+    outline: none;
+}
+
+.page-wrapper {
+    max-width: 100%; /*98.125rem;*/
+    background: #fff;
+}
+
+.site-header__inner__container,
+.main-content__container {
+    margin: auto;
+}
+
+#page {
+    margin: auto;
+    box-shadow: 0px 1px 15px 2px #444;
+    padding: 0;
+}
+
+.site-footer {
+    background: #eeeeee;
+    color: black;
+    /*background: linear-gradient(180deg, #ffffff 0%, #eeeeee 100%);*/
+    /*background: linear-gradient(180deg, #0c0d0e 0%, #171e23 100%);*/
+}
+
+a:focus, .primary-nav__menu-link:focus {
+	outline: none;
+	outline-offset: unset;
+}
+
+.site-header__initial {
+	background-color: #1e4370;
+}
+
+.region--secondary-menu {
+    display: block;
+}
+.language-switcher-language-url {
+    text-align: right;
+}
+.language-switcher-language-url > .block__content{
+    display: inline-block;
+}
+.language-switcher-language-url ul.links {
+    list-style-type: none;
+    display: flex;
+    margin-left: -10px;
+}
+.language-switcher-language-url ul.links > li:not(:last-child)::after {
+    content: "|";
+}
+.language-switcher-language-url a.language-link {
+    padding: 0 0.84375rem; /*1.6875rem / 2; /*10px;*/
+}
+
+.segell {
+    margin-top: 2em;
+    padding: 0 1rem;
+}
+.segell p, .segell h3 {
+    margin-bottom: 1rem;
+    margin-top: initial;
+}
+.segell img {
+    margin-top: 2rem;
+}
+
+@media (min-width: 900px) {
+    .segell { 
+        margin-top: 4em;
+    }
+    .segell img {
+        float:left;
+        margin-right: 1rem;
+        margin-top: 0;
+    }
+}
+
+@media (min-width: 62.5rem) {
+    .sidebar-grid > .site-main {
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 10;
+        grid-column: 1 / 11; 
+    }
+    .sidebar-grid .region--sidebar {
+        -ms-grid-column: 11;
+        -ms-grid-column-span: 4;
+        grid-column: 11 / 15;
+    }
+}
+
+.text-content > .field__label {
+    font-family: "metropolis", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 1.6875rem;
+}

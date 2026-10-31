@@ -1,0 +1,28 @@
+/* - FONTS downloaded from http://www.katharsis.co/CSS/fontsFiles
+   - Syntax copied from AS's files
+*/
+
+
+@font-face {
+    font-family: 'dinmedium';
+    src: url('din-medium-webfont-webfont.eot');
+    src: url('din-medium-webfont-webfont.eot#iefix') format('embedded-opentype'),
+         url('din-medium-webfont-webfont.woff') format('woff'),
+         url('din-medium-webfont-webfont.ttf') format('truetype'),
+         url('din-medium-webfont-webfont.svg#dinmedium') format('svg');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+@font-face {
+     font-family: 'dinmedium';
+    src: url('din-bold-webfont.eot');
+    src: url('din-bold-webfont.eot#iefix') format('embedded-opentype'),
+         url('din-bold-webfont.woff') format('woff'),
+         url('din-bold-webfont.ttf') format('truetype'),
+         url('din-bold-webfont.svg#DINBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
